@@ -23,7 +23,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Phaser Typescript Webpack Starter',
+      title: 'Phaser Doom',
       template: './src/index.ejs'
     }),
     new CleanWebpackPlugin(['dist']),

@@ -1,10 +1,10 @@
-export class Game extends Phaser.State {
+export class Menu extends Phaser.State {
   public preload() {
 
   }
 
   public create() {
-    console.log('Hello world!');
+    this.state.start('Game');
   }
 
   public update() {
