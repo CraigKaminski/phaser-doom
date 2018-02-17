@@ -18,7 +18,6 @@ export class Game extends Phaser.State {
   }
 
   public update() {
-    this.player.update();
     this.game.physics.arcade.collide(this.player, this.layer);
   }
 }
